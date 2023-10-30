@@ -23,12 +23,12 @@ int main() {
 // Ekrana Merhaba Nasılsın? yazan program        ==> Tek satır yorum işareti // ile bilgi verme amaçlı yorum satırı eklendi.
 
 #include <stdio.h>                               ==> Kodumuzda kullanılacak fonksiyonlar için <stdio.h> kütüphanesini kodumuza ekledik.	
-int main()                       ==> int main(){kodlar;} ile kodlarımızın çalıştırılmasını sağlayacak main() fonskiyonunu yazdık.
+int main()                           ==> int main(){kodlar;} ile kodlarımızın çalıştırılmasını sağlayacak main() fonskiyonunu yazdık.
 {
 
 	printf("Merhaba \n");        ==> printf() fonskiyonu ile tırnaklar içerisindeki metni çıktı(output) olarak ekrana yazdırdık ve devamında bir alt satıra geçilmesi için \n escape karakterini kullandık. Noktalı virgül ; ile kod satırının bittiğini belirttik.
 	printf("Nasılsın");          ==> Tekrar printf() fonskiyonunu kullandık ve istenilen metni yazdırdık.
-	return 0;					 ==> return ile programın başarıyla tamamlanıp tamamlanmadığını öğrenmek için ekranda gözükmek üzere 0 değerini geri dönderdik.
+	return 0;		     ==> return ile programın başarıyla tamamlanıp tamamlanmadığını öğrenmek için ekranda gözükmek üzere 0 değerini geri dönderdik.
 }
 */
 
@@ -37,7 +37,7 @@ int main()                       ==> int main(){kodlar;} ile kodlarımızın ça
  SORU 3. Aşağıdakilerden hangisi yanlış değişken ismidir? (10p)
 CEVAP
 
-a. Maas          ==> DOĞRU
+a. Maas         	 ==> DOĞRU
 b. Maas23		 ==> DOĞRU
 c. maas$		 ==> YANLIŞ
 d. 123_4		 ==> DOĞRU
@@ -82,9 +82,9 @@ int main() {
 CEVAP
  
 a. Toplam:integer=0;           ==> YANLIŞ
-b. Toplam=0, int;			   ==> YANLIŞ
-c. İnt toplam = 0;			   ==> DOĞRU
-d. İnt=0, toplam;			   ==> YANLIŞ
+b. Toplam=0, int;	       ==> YANLIŞ
+c. İnt toplam = 0;	       ==> DOĞRU
+d. İnt=0, toplam;	       ==> YANLIŞ
 */
 
 /*
@@ -94,7 +94,7 @@ CEVAP
 İnt a,b,c;
 a=8;
 b=15;
-c=a/b+b/a*2;    ==> a/b tamsayı bölme =0, b/a tamsayı bölme =1 * 2 = 2   0 + 2 = 0
+c=a/b+b/a*2;    ==> a/b tamsayı bölme =0, b/a tamsayı bölme =1 * 2 = 2   0 + 2 = 2
 b=b/2;
 a=a+3; 			==> a=11   b=7	 c=2  OLUR.
 */
@@ -109,7 +109,7 @@ int main()
 	int a = 285;
 	double y = -27.3789;     
 	printf("%6.2f\n", y);    ==> -27.38 (2 ondalık basmağı alır.)
-	printf("%7.1f\n", --y);  ==> 28.4	(başlangıçta y'yi 1 azaltır ve 1 ondalık basamak alır.)
+	printf("%7.1f\n", --y);  ==> 28.4   (başlangıçta y'yi 1 azaltır ve 1 ondalık basamak alır.)
 	printf("%4d\n", a/11);	 ==> 25		
 	printf("%2d\n", a+=5);	 ==> 290
 }
