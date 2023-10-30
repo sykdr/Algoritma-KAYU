@@ -79,17 +79,23 @@
  SORU10 1-99 arasındaki tek ve çift sayıların toplamları ile çarpımlarını ayrı ayrı hesaplayan programın algoritmasını hazırlayınız.
 
   1. Başla
+  . tekToplam = 0
+  . tekCarpim = 0
+  . ciftToplam = 0
+  . ciftCarpim = 0
   2. 1'den 99'a kadar git
   3. Eğer sayi / 2 kalan = 0 ise Git 5
   4. Eğer sayi / 2 kalan = 1 ise Git 8
   5. sayi = çiftSayi 
   6. çiftSayi += çiftSayi yaz
   7. çiftSayi *= çiftSayi yaz
+     Dur
   8. sayi = tekSayi
   9. tekSayi += tekSayi yaz
   10. tekSayi *= tekSayi yaz
   11. Dur
 .
+Yanlışlıkla sildiğim için tekrar yüklemek zorunda kaldım.
 
 
 
