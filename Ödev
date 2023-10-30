@@ -1,0 +1,101 @@
+ Algoritma Nedir?
+  + Algoritma önceden belirlenmiş bir işi(problemi) sonlu bir zamanda sonlu yol ve yöntemler kullanarak çözmeye çalıştığımız komutlar topluluğudur.
+
+ Program yazılmadan önce algoritması mı hazırlanmalı yoksa akış diyagramı mı çizilmelidir?
+  + Akış diyagramı algoritmaların anlaşılabilir ve görsel bir hali olduğu için,önce algoritmanın hazırlanıp sonra akış diyagramı ile bunun sunulması şahsen daha mantıklı olacaktır.
+
+ Algoritma hazırlarken dikkat edilmesi gereken husuları açıklayınız.
+  + Algoritma anlaşılır, mantıklı ve sonlu olmalıdır. Tekrardan kaçınılmalıdır. Olabildiğince sade hale getirilmelidir.
+
+ Değişken Nedir?
+  + İçerisine tanımlanan veriyi(değeri) kalıcı veya geçici olarak saklamamızı sağlayan hafızada belirli bir alan kaplayan adreslerdir.
+
+ Sayaçlar, Nerelerde ve Niçin Kullanılmaktadır?
+  + Veri boyunca aynı işlemi birçok kez yapmamız gereken durumlarda sonuca daha az çabayla ulaşmak için  başlangıç ve bitişi olan döngüleri kullanırız.Bu döngülere sayaç denir.
+
+
+ SORU 6
+
+  1. Başla                              ==> S değişkeni 11 olana kadar döngü devam edecek.                         
+  2. T=0                                    Her tekrar edişte 
+  3. S=0                                    +2 ile S çarpılacak ve T önceki T ile toplanacak.                                 
+  4. Eğer S>10 ise Git 8                    S ise 2 artırılacak.(10 olana kadar döngü 6 kez çalışacak.)
+  5. T=T+2*S                                1.  0+2*0 = 0
+  6. S=S+2                                  2.  0+2*2 = 4
+  7. Git 4                                  3.  4+2*4 = 12
+  8. Yaz T                                  4.  12+2*6 = 24 
+  9. Dur                                    5. 24+2*8 = 40
+                                          6. 40+2*10 = 60        T = 60
+
+
+ SORU 7
+
+  1. Başla                              ==> F= 20-3=17   S= 17+1+2=20
+  2. F=1                                    F= 14      S= 36
+  3. S=20                                   F= 11      S= 49
+  4. Eğer S<1 ise Git 9                     F= 8       S= 59
+  5. S=S-3                                  F= 5       S= 66
+  6. F=F+S                                  F= 2       S= 70
+  7. F=F+2                                  F= -1      S= 71
+  8. Git 4                                  
+  9. Yaz F                                  
+  10. Dur
+
+
+ SORU 8 Girilen üç sayıdan en büyüğünü bulan programın algoritmasını yazınız.
+
+  1. Başla
+  2. s1= (sayı1 gir)  
+  3. s2 = (sayi2 gir)
+  4. s3 = (sayi3 gir)
+  5. Eğer s1 > s2 ve s1> s3 ise Git 8
+  6. Eğer s2 > s1 ve s2 > s3 ise Git 9
+  7. Eğer s3 > s1 ve s3 > s2 ise Git 10
+  8. Yaz s1
+  9. Yaz s2
+  10. Yaz s3
+  11. Dur
+
+
+ SORU 9 Girilen üç sayıyı küçükten büyüğe doğru sıralayan programın algoritmasını hazırlayınız. 
+
+  1. Başla
+  2. s1= (sayı1 gir)  
+  3. s2 = (sayi2 gir)
+  4. s3 = (sayi3 gir)
+  5. Eğer s1 > s2 ve s1> s3 ise Git 8
+  6. Eğer s2 > s1 ve s2 > s3 ise Git 8
+  7. Eğer s3 > s1 ve s3 > s2 ise Git 8
+  8. enBüyük = 
+  9. Eğer s1 < enBüyük ve s1 < s3 ise yaz s1<s3<s2 
+  10. Eğer s1 < enBüyük ve  s1 < s2 ise yaz s1<s2<s3
+  11. Eğer s2 < enBüyük ve s3 < s3 ise yaz s2<s3<s1
+  12. Eğer s2 < enBüyük ve s2 < s1 ise yaz s2<s1<s3
+  13. Eğer s3 < enBüyük ve s3 < s1 ise yaz s3<s1<s2
+  14. Eğer s3 < enbüyük ve s3 < s2 ise yaz s3<s2<s3
+  15. Dur
+
+
+ SORU10 1-99 arasındaki tek ve çift sayıların toplamları ile çarpımlarını ayrı ayrı hesaplayan programın algoritmasını hazırlayınız.
+
+  1. Başla
+  2. 1'den 99'a kadar git
+  3. Eğer sayi / 2 kalan = 0 ise Git 5
+  4. Eğer sayi / 2 kalan = 1 ise Git 8
+  5. sayi = çiftSayi 
+  6. çiftSayi += çiftSayi yaz
+  7. çiftSayi *= çiftSayi yaz
+  8. sayi = tekSayi
+  9. tekSayi += tekSayi yaz
+  10. tekSayi *= tekSayi yaz
+  11. Dur
+.
+
+
+
+
+
+
+  
+                                          
+                                          
